@@ -1,5 +1,6 @@
 <template>
-    <div>
+  
+    <div class="container">
       <h2>Entreprises</h2>
 
       <table class="table table-striped">
