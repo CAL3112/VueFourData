@@ -10,6 +10,11 @@ export default defineConfig({
     vue(),
     vueJsx(),
   ],
+  base: '/projets/VueFourData/',
+  build: {
+    outDir: 'dist', // Répertoire de sortie
+    assetsDir: 'assets', // Répertoire pour les fichiers CSS et JS
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
